@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    text-decoration: underline;
+    color: lightskyblue;
+}
+
+nav .login-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+nav a.not-last::after {
+    content: "|";
+    margin: 10px;
+}
+
+/* Main content */
+.container {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.title {
+    color:#000;
+    left: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+div.post {
+    border: 1px solid #000;
+    background-color: white;
+    width: 1100px;
+    height: 100px;
+    margin: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+div.post p {
+    position: relative;
+}
+
+.post em {
+    font-weight: bold;
+}
+
+.post em2 {
+    color: crimson
+}
+
+.post a {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+.post-number {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.post-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+}
+
+.post-footer {
+    margin-top: 60px;
+    font-size: 12px;
+    color: #000;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 20%;
+    height: 100%;
+}
+
+.sidebar-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.sidebar ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar li p{
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.sidebar li a{
+    color: lightskyblue;
+    text-decoration: underline;
+    align-self: flex-start;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Separator */
+.separator {
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
